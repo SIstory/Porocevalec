@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 schema/porocevalec.xsd"
+ xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poročevalec Državnega zbora na portalu Zgodovina Slovenije - SIstory</title>
+            <respStmt>
+               <resp>Kodiranje kazal vsebine v zapis TEI</resp>
+               <name>Barbara Györfi</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Inštitut za novejšo zgodovino</publisher>
+            <date when="2018">2018</date>
+            <availability>
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Izvorno digitalno besedilo.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <bibl xml:id="sistory.36299">
+               <title>Poročevalec Skupščine SR Slovenije za delegacije in delegate, letnik 1, št. 2 (18. 1. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36300">
+               <title>Poročevalec Skupščine SR Slovenije za delegacije in delegate, letnik 1, št. 1 (27. 1. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36301">
+               <title>Poročevalec Skupščine SR Slovenije za delegacije in delegate, letnik 1, št. 3 (14. 3. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36302">
+               <title>Poročevalec Skupščine SR Slovenije za delegacije in delegate, letnik 1, št. 4 (2. 4. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36303">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 5 (9. 4. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36304">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 6 (11. 4. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36305">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 7 (16. 4. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36306">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 8 (26. 4. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36307">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 9 (9. 5. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36308">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 10 (14. 5. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36309">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 11 (23. 5. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36310">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 12 (5. 6. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36311">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 13 (23. 6. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36312">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 14 (2. 7. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36313">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 15 (10. 7. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36314">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 16 (25. 7. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36315">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 17 (18. 8. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36316">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 18 (18. 8. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36317">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 19 (19. 9. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36318">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 20 (1. 10. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36319">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 21 (17. 10. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36320">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 22 (28. 10. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36321">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 23 (31. 10. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36322">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 24 (1. 11. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36323">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 25 (13. 11. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36324">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 26 (25. 11. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36325">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 27 (13. 12. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36326">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 1, št. 28 (23. 12. 1975)</title>
+            </bibl>
+            <bibl xml:id="sistory.36327">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 1 (15. 1. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36328">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 2 (29. 1. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36329">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 3 (10. 2. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36330">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 4 (16. 2. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36331">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 5 (2. 3. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36332">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 6 (8. 3. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36333">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 7 (16. 3. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36334">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 8 (30. 3. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36335">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 9 (8. 4. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36336">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 10 (22. 4. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36337">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 11 (4. 5. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36338">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 12 (10. 5. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36339">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 13 (17. 5. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36340">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 14 (1. 6. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36341">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 15 (7. 6. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36342">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 16 (10. 6. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36343">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 17 (17. 6. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36344">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 18 (5. 7. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36345">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 19 (15. 7. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36346">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 20 (12. 8. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36347">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 21 (20. 9. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36348">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 22 (5. 10. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36349">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 23 (19. 10. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36350">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 24 (26. 10. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36351">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 25 (11. 11. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36352">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 26 (16. 11. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36353">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 27 (25. 11. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36354">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 28 (7. 12. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36355">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 2, št. 29 (12. 12. 1976)</title>
+            </bibl>
+            <bibl xml:id="sistory.36356">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 1 (11. 1. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36357">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 2 (24. 1. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36358">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 3 (31. 1. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36359">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 4 (8. 2. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36360">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 5 (25. 2. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36361">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 6 (10. 3. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36362">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 7 (17. 3. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36363">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 8 (21. 3. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36364">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 9 (7. 4. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36365">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 10 (25. 4. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36366">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 11 (9. 5. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36367">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 12 (16. 5. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36368">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 13 (23. 5. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36369">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 14 (31. 5. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36370">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 15 (9. 6. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36371">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 16 (14. 6. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36372">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 17 (21. 6. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36373">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 18 (28. 6. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36374">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 19 (5. 7. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36375">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 20 (14. 7. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36376">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 21 (1. 8. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36377">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 22 (27. 9. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36378">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 23 (13. 10. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36379">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 24 (27. 10. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36380">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 25 (3. 11. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36381">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 26 (8. 11. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36382">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 27 (22. 11. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36383">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 28 (7. 12. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36384">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 29 (12. 12. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36385">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 30 (20. 12. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36386">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 3, št. 31 (27. 12. 1977)</title>
+            </bibl>
+            <bibl xml:id="sistory.36387">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 1 (10. 1. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36388">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 2 (30. 1. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36389">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 3 (7. 2. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36390">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 4 (21. 2. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36391">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 5 (28. 2. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36392">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 9 (5. 3. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36393">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 6 (9. 3. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36394">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 7 (14. 3. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36395">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 8 (22. 3. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36396">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 10 (19. 4. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36397">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 11 (24. 5. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36398">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 12 (1. 6. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36399">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 13 (14. 6. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36400">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 14 (26. 6. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36401">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 15 (29. 6. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36402">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 16 (12. 7. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36403">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 17 (31. 7. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36404">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 18 (26. 9. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36405">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 19 (10. 10. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36406">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 20 (20. 10. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36407">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 21 (24. 10. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36408">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 22 (31. 10. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36409">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 23 (8. 11. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36410">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 27 (12. 11. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36411">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 24 (15. 11. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36412">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 25 (23. 11. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36413">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 26 (28. 11. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36414">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 4, št. 28 (19. 12. 1978)</title>
+            </bibl>
+            <bibl xml:id="sistory.36415">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 1 (9. 1. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36416">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 2 (23. 1. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36417">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 3 (6. 2. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36418">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 4 (20. 2. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36419">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 5 (6. 3. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36420">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 6 (20. 3. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36421">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 7 (26. 3. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36422">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 8 (3. 4. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36423">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 9 (17. 4. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36424">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 10 (26. 4. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36425">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 11 (8. 5. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36426">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 12 (14. 5. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36427">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 13 (22. 5. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36428">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 14 (5. 6. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36429">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 15 (19. 6. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36430">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 16 (26. 6. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36431">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 17 (3. 7. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36432">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 18 (17. 7. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36433">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 19 (31. 7. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36434">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 20 (25. 9. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36435">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 21 (9. 10. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36436">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 22 (23. 10. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36437">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 23 (6. 11. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36438">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 24 (20. 11. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36439">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 25 (7. 12. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36440">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 5, št. 26 (18. 12. 1979)</title>
+            </bibl>
+            <bibl xml:id="sistory.36441">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 1 (4. 1. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36445">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 2 (19. 2. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36447">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 3 (26. 2. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36448">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 4 (3. 3. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36451">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 5 (26. 3. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36456">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 6 (14. 5. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36459">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 7 (25. 6. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36461">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 8 (30. 6. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36464">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 9 (29. 7. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36465">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 10 (20. 8. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36467">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 11 (25. 9. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36469">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 12 (7. 10. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36471">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 13 (24. 10. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36473">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 14 (8. 11. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36474">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 15 (11. 11. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36475">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 16 (13. 11. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36477">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 17 (2. 12. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36478">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 18 (4. 12. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36479">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 19 (5. 12. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36480">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 20 (8. 12. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36442">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 1 (9. 1. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36443">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 2 (23. 1. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36444">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 3 (6. 2. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36446">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 4 (20. 2. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36449">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 5 (4. 3. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36450">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 6 (19. 3. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36452">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 7 (2. 4. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36453">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 8 (16. 4. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36454">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 9 (7. 5. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36455">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 10 (12. 5. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36457">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 11 (28. 5. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36458">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 12 (11. 6. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36460">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 13 (25. 6. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36462">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 14 (9. 7. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36463">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 15 (24. 7. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36466">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 16 (15. 9. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36468">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 17 (1. 10. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36470">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 18 (15. 10. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36472">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 19 (28. 10. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36476">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 20 (17. 11. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36481">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 21 (9. 12. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36482">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 22 (16. 12. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36483">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 6, št. 23 (23. 12. 1980)</title>
+            </bibl>
+            <bibl xml:id="sistory.36488">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 1 (20. 2. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36494">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 2 (8. 4. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36495">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 3 (21. 4. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36501">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 4 (16. 6. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36506">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 5 (28. 9. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36508">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 6 (5. 10. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36510">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 7 (20. 10. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36513">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 8 (17. 11. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36515">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 9 (7. 12. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36518">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 10 (28. 12. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36519">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 11 (30. 12. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36484">
+               <title>Priloga Poročevalca, letnik 7(1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36485">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 1 (13. 1. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36486">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 2 (27. 1. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36487">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 3 (10. 2. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36489">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 4 (24. 2. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36490">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 5 (3. 3. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36491">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 6 (10. 3. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36492">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 7 (24. 3. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36493">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 8 (7. 4. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36496">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 9 (21. 4. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36497">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 10 (12. 5. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36498">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 11 (26. 5. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36499">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 12 (1. 6. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36500">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 13 (9. 6. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36502">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 14 (25. 6. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36503">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 15 (7. 7. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36504">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 16 (21. 7. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36505">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 17 (24. 8. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36507">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 18 (29. 9. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36509">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 19 (13. 10. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36511">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 20 (27. 10. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36512">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 21 (10. 11. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36514">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 22 (24. 11. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36516">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 23 (8. 12. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36517">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 7, št. 24 (22. 12. 1981)</title>
+            </bibl>
+            <bibl xml:id="sistory.36522">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 1 (2. 2. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36526">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 2 (2. 3. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36531">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 3 (25. 5. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36534">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 4 (26. 6. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36536">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 5 (2. 7. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36539">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 6 (20. 7. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36542">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 7 (9. 8. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36543">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 8 (21. 9. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36551">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 9 (9. 12. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36552">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 10 (14. 12. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36520">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 1 (12. 1. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36521">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 2 (26. 1. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36523">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 3 (9. 2. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36524">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 4 (18. 2. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36525">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 5 (25. 2. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36527">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 6 (9. 3. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36528">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 7 (16. 3. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36529">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 8 (6. 4. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36530">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 9 (10. 5. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36532">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 10 (1. 6. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36533">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 11 (14. 6. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36535">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 12 (29. 6. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36537">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 13 (6. 7. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36538">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 14 (13. 7. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36540">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 15 (27. 7. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36541">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 16 (2. 8. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36544">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 17 (28. 9. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36545">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 18 (4. 10. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36546">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 19 (15. 10. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36547">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 20 (26. 10. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36548">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 21 (9. 11. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36549">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 22 (23. 11. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36550">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 23 (7. 12. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36553">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 8, št. 24 (21. 12. 1982)</title>
+            </bibl>
+            <bibl xml:id="sistory.36557">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 1 (31. 1. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36560">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 2 (21. 2. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36563">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 3 (15. 3. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36565">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 4 (29. 3. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36572">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 5 (7. 6. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36574">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 7 (21. 6. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36578">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 8 (29. 7. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36580">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 9 (9. 8. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36581">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 10 (9. 9. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36584">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 11 (18. 10. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36586">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 12 (28. 10. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36554">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 1 (4. 1. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36555">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 2 (11. 1. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36556">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 3 (25. 1. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36558">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 4 (8. 2. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36559">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 5 (15. 2. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36561">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 6 (22. 2. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36562">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 7 (8. 3. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36564">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 8 (22. 3. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36566">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 9 (5. 4. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36567">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 10 (19. 4. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36568">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 11 (4. 5. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36569">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 12 (13. 5. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36570">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 13 (17. 5. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36571">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 14 (31. 5. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36573">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 15 (14. 6. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36575">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 16 (5. 7. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36576">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 17 (14. 7. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36577">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 18 (26. 7. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36579">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 19 (2. 8. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36582">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 20 (27. 9. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36583">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 21 (11. 10. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36585">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 22 (25. 10. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36587">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 23 (8. 11. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36588">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 24 (15. 11. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36589">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 25 (22. 11. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36590">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 26 (6. 12. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36591">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 27 (12. 12. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36592">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 9, št. 28 (20. 12. 1983)</title>
+            </bibl>
+            <bibl xml:id="sistory.36594">
+               <title>Priloga Poročevalca, letnik 10(10. 1. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36604">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 1 (16. 3. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36605">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 2 (16. 3. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36608">
+               <title>Priloga Poročevalca, letnik 10(3. 4. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36611">
+               <title>Priloga Poročevalca Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 3 (17. 4. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36613">
+               <title>Priloga Poročevalca, letnik 10(8. 5. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36615">
+               <title>Priloga Poročevalca, letnik 10(22. 5. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36617">
+               <title>Priloga Poročevalca, letnik 10(29. 5. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36627">
+               <title>Priloga Poročevalca, letnik 10(7. 8. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36630">
+               <title>Priloga Poročevalca, letnik 10(18. 9. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36633">
+               <title>Priloga Poročevalca, letnik 10(9. 10. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36635">
+               <title>Priloga Poročevalca, letnik 10(16. 10. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36639">
+               <title>Priloga Poročevalca, letnik 10(30. 10. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36646">
+               <title>Priloga Poročevalca, letnik 10(18. 12. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36593">
+               <title>Priloga Poročevalca, letnik 10(1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36595">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 1 (10. 1. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36596">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 2 (19. 1. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36597">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 3 (24. 1. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36598">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 4 (31. 1. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36599">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 5 (7. 2. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36600">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 6 (21. 2. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36601">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 7 (24. 2. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36602">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 8 (6. 3. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36603">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 9 (13. 3. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36606">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 10 (20. 3. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36607">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 11 (27. 3. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36609">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 12 (3. 4. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36610">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 13 (10. 4. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36612">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 14 (19. 4. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36614">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 15 (8. 5. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36616">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 16 (22. 5. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36618">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 17 (29. 5. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36619">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 18 (5. 6. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36620">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 19 (12. 6. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36621">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 20/1 (19. 6. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36622">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 20/2 (21. 6. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36623">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 21 (2. 7. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36624">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 22 (17. 7. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36625">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 23 (31. 7. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36626">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 24 (5. 8. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36628">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 25 (11. 9. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36629">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 26 (12. 9. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36631">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 27 (18. 9. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36632">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 28 (25. 9. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36634">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 29 (9. 10. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36636">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 30 (16. 10. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36637">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 31 (23. 10. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36638">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 32 (24. 10. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36640">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 33 (30. 10. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36641">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 34 (6. 11. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36642">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 35 (13. 11. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36643">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 36 (20. 11. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36644">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 37 (6. 12. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36645">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 38 (11. 12. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36647">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 10, št. 39 (18. 12. 1984)</title>
+            </bibl>
+            <bibl xml:id="sistory.36648">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 1 (8. 1. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36649">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 2 (15. 1. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36650">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 3 (22. 1. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36651">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 4 (29. 1. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36652">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 5 (5. 2. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36653">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 6 (19. 2. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36654">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 7 (26. 2. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36655">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 8 (5. 3. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36656">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 9 (19. 3. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36657">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 10 (25. 3. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36658">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 11 (2. 4. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36659">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 12 (9. 4. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36660">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 13 (16. 4. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36661">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 14 (25. 4. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36662">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 15 (7. 5. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36663">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 16 (8. 5. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36664">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 17 (14. 5. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36665">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 18 (21. 5. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36666">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 19 (4. 6. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36667">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 20 (18. 6. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36668">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 21 (25. 6. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36669">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 22 (28. 6. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36670">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 23 (1. 7. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36671">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 24 (9. 7. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36672">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 25 (19. 7. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36673">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 26 (23. 7. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36674">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 27 (24. 7. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36675">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 28 (1. 8. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36676">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 29 (5. 8. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36677">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 30 (6. 8. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36678">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 31 (17. 8. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36679">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 32 (1. 10. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36680">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 33 (15. 10. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36681">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 34 (22. 10. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36682">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 35 (29. 10. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36683">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 36 (5. 11. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36684">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 37 (14. 11. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36685">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 38 (19. 11. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36686">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 39 (3. 12. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36687">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 40 (10. 12. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36688">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 11, št. 41 (17. 12. 1985)</title>
+            </bibl>
+            <bibl xml:id="sistory.36689">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 1 (14. 1. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36690">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 2 (21. 1. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36691">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 3 (4. 2. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36692">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 4 (11. 2. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36693">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 5 (18. 2. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36694">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 6 (28. 2. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36695">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 7 (4. 3. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36696">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 8 (12. 3. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36697">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 9 (14. 3. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36698">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 10 (1. 4. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36699">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 11 (8. 4. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36700">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 12 (22. 4. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36701">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 13 (5. 5. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36702">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 14 (13. 5. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36703">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 15 (20. 5. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36704">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 16 (3. 6. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36705">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 17 (10. 6. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36706">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 18/1 (16. 6. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36707">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 18/2 (17. 6. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36708">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 19 (1. 7. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36709">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 20 (15. 7. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36710">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 21 (5. 8. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36711">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 22 (16. 9. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36712">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 23 (30. 9. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36713">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 24 (7. 10. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36714">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 25 (28. 10. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36715">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 26 (29. 10. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36716">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 27 (4. 11. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36717">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 28 (11. 11. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36718">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 29 (17. 11. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36719">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 30 (3. 12. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36720">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 12, št. 31 (10. 12. 1986)</title>
+            </bibl>
+            <bibl xml:id="sistory.36721">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 1 (6. 1. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36722">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 2 (16. 1. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36723">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 3 (27. 1. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36724">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 4 (12. 2. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36725">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 5 (24. 2. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36726">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 6 (17. 3. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36727">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 7 (24. 3. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36728">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 8 (31. 3. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36729">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 9 (7. 4. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36730">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 10 (12. 5. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36731">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 11 (19. 5. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36732">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 12 (26. 5. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36733">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 13 (2. 6. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36734">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 14 (9. 6. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36735">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 15 (16. 6. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36736">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 16 (19. 6. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36737">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 17 (30. 6. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36738">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 18 (7. 7. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36739">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 19 (20. 7. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36740">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 20 (28. 7. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36741">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 21 (4. 8. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36742">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 22 (2. 9. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36743">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 23 (14. 9. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36744">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 24 (6. 10. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36745">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 25 (12. 10. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36746">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 26 (13. 10. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36747">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 27 (15. 10. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36748">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 28 (19. 10. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36749">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 29 (3. 11. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36750">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 30 (4. 11. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36751">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 31 (9. 11. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36752">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 32 (10. 11. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36753">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 33 (17. 11. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36754">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 34 (20. 11. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36755">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 35 (24. 11. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36756">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 36 (8. 12. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36757">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 13, št. 37 (22. 12. 1987)</title>
+            </bibl>
+            <bibl xml:id="sistory.36758">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 1 (12. 1. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36759">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 2 (16. 1. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36760">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 3 (26. 1. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36761">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 4 (9. 2. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36762">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 5 (23. 2. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36763">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 6 (8. 3. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36764">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 7 (9. 3. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36765">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 8 (22. 3. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36766">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 9 (5. 4. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36767">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 10 (12. 4. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36768">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 11 (19. 4. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36769">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 12 (10. 5. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36770">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 13 (17. 5. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36771">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 14 (24. 5. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36772">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 15 (30. 5. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36773">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 16 (7. 6. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36774">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 17 (9. 6. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36775">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 18 (15. 6. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36776">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 19 (21. 6. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36777">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 20 (28. 6. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36778">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 21 (26. 7. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36779">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 22 (2. 8. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36780">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 23 (3. 8. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36781">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 24 (30. 8. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36782">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 25 (12. 9. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36783">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 26 (20. 9. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36784">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 27 (11. 10. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36785">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 28 (12. 10. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36786">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 29 (18. 10. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36787">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 30 (25. 10. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36788">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 31 (26. 10. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36789">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 32 (28. 10. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36790">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 33 (2. 11. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36791">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 34 (8. 11. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36792">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 35 (15. 11. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36793">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 36 (22. 11. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36794">
+               <title>Poročevalec: Gospodarski vestnik, letnik , posebna številka (12. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36795">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 14, št. 37 (6. 12. 1988)</title>
+            </bibl>
+            <bibl xml:id="sistory.36796">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 1 (31. 1. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36797">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 3 (6. 2. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36798">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 4 (28. 2. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36799">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 5 (14. 3. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36800">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 6 (21. 3. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36801">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 7 (28. 3. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36802">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 8 (4. 4. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36803">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 9 (11. 4. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36804">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 10 (21. 4. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36805">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 11 (24. 4. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36806">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 12 (9. 5. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36807">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 13 (30. 5. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36808">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 14 (13. 6. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36809">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 15/1 (20. 6. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36810">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 15/2 (20. 6. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36811">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 16 (27. 6. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36812">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 17 (17. 7. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36813">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 18 (1. 8. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36814">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 19 (19. 9. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36815">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 20 (20. 9. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36816">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 21 (3. 10. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36817">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 22 (30. 10. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36818">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 23 (7. 11. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36819">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 24 (13. 11. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36820">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 25 (21. 11. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36821">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, posebna številka (27. 11. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36822">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 26 (5. 12. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36823">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 27 (20. 12. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36824">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 15, št. 28 (27. 12. 1989)</title>
+            </bibl>
+            <bibl xml:id="sistory.36825">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 1 (16. 1. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36826">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 2 (26. 1. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36827">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 3 (8. 2. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36828">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 4 (19. 2. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36829">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 5/1 (20. 2. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36830">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 5/2 (20. 2. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36831">
+               <title>Poročevalec Skupščine SR Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 6 (1. 3. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36832">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 7 (8. 3. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36833">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 8 (14. 3. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36834">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 9 (27. 3. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36835">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 10 (31. 3. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36836">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 11 (2. 7. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36837">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 12 (11. 7. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36838">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 13 (2. 8. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36839">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 14 (24. 9. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36840">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 15 (2. 10. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36841">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 16 (16. 10. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36842">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 17 (19. 10. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36843">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 18 (26. 10. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36844">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 19 (8. 11. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36845">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 20 (14. 11. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36846">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 21 (16. 11. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36847">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 22 (22. 11. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36848">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije za delegacije in delegate, letnik 16, št. 23 (6. 12. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36849">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik , posebna številka (11. 12. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36850">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 16, št. 24 (18. 12. 1990)</title>
+            </bibl>
+            <bibl xml:id="sistory.36851">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 1 (7. 1. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36852">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 2 (11. 1. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36853">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 3 (29. 1. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36854">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 4 (11. 2. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36855">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 5 (12. 2. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36856">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 6/1 (18. 2. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36857">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 6/2 (18. 2. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36858">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 6 (18. 2. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36859">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 7 (19. 2. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36860">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 8 (22. 2. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36861">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 9 (28. 2. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36862">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 10 (8. 3. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36863">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 11 (26. 3. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36864">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 12 (1. 4. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36865">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 13 (18. 4. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36866">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 14 (9. 5. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36867">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 15 (20. 5. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36868">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 16 (23. 5. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36869">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 17 (3. 6. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36870">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 18 (11. 6. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36871">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 19 (27. 6. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36872">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 20 (12. 7. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36873">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 21 (25. 7. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36874">
+               <title>Poročevalec Skupščine Republike Slovenije in Skupščine SFR Jugoslavije, letnik 17, št. 22 (8. 8. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36875">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 23 (18. 9. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36876">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 24 (1. 10. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36877">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 25 (7. 10. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36878">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 26 (31. 10. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36879">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 27 (22. 11. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36880">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 28 (2. 12. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36881">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 29/1 (3. 12. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36882">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 29 (3. 12. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36883">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 30 (12. 12. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36884">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 17, št. 31 (17. 12. 1991)</title>
+            </bibl>
+            <bibl xml:id="sistory.36885">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 1 (17. 1. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36886">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 2 (27. 1. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36887">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 3 (11. 2. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36888">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 4 (18. 2. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36889">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 5 (27. 2. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36890">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 6 (5. 3. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36891">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 7 (19. 3. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36892">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik , posebna številka (30. 3. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36893">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 8 (31. 3. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36894">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 9 (9. 4. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36895">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 10 (14. 5. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36896">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 11 (16. 6. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36897">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 12 (23. 6. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36898">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 13 (2. 7. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36899">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 14 (14. 7. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36900">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 15 (27. 7. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36901">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 16 (10. 8. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36902">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 17 (11. 8. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36903">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 18 (28. 8. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36904">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 19 (24. 9. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36905">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 20 (6. 10. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36906">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 21 (12. 10. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36907">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 22 (15. 10. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36908">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 23 (22. 10. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36909">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 24 (26. 10. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36910">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 25 (10. 11. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36911">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 26 (26. 11. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36912">
+               <title>Poročevalec Skupščine Republike Slovenije, letnik 18, št. 27 (8. 12. 1992)</title>
+            </bibl>
+            <bibl xml:id="sistory.36913">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 1 (11. 2. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36914">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 2 (11. 3. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36915">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 3 (19. 3. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36916">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 4 (22. 3. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36917">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 5 (8. 4. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36918">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 6 (15. 4. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36919">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 7 (19. 4. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36920">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 8 (29. 4. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36921">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 9 (3. 5. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36922">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 10 (7. 5. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36923">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 11 (11. 5. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36924">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 12 (25. 5. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36925">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 13 (3. 6. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36926">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 14 (4. 6. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36927">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 15 (10. 6. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36928">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 16 (17. 6. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36929">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 17 (28. 6. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36930">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 18 (8. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36931">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 19 (12. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36932">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 20 (13. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36933">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 21 (15. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36934">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 22 (19. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36935">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 23 (22. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36936">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 24/1 (23. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36937">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 24 (23. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36938">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 25 (29. 7. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36939">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 26 (12. 8. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36940">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 27 (13. 8. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36941">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 28 (6. 9. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36942">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 29 (16. 9. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36943">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 30 (20. 9. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36944">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 31 (7. 10. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36945">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 32 (12. 10. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36946">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 33 (14. 10. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36947">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 34 (21. 10. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36948">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 35 (28. 10. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36949">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 36 (5. 11. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36950">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 37 (11. 11. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36951">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 38 (18. 11. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36952">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 39 (25. 11. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36953">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 40 (7. 12. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36954">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 41 (9. 12. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36955">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 42 (16. 12. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36956">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 19, št. 43 (21. 12. 1993)</title>
+            </bibl>
+            <bibl xml:id="sistory.36957">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 1 (6. 1. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36958">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 2 (10. 1. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36959">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 3 (18. 1. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36960">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 4 (27. 1. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36961">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 5 (3. 2. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36962">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 6 (17. 2. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36963">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 7/1 (21. 2. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36964">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 7 (21. 2. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36965">
+               <title>Poročevalec Državnega zbora, letnik , posebna številka (21. 2. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36966">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 8 (22. 2. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36967">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 9 (24. 2. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36968">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 10 (8. 3. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36969">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 11 (15. 3. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36970">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 12 (21. 3. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36971">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 13 (24. 3. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36972">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 14 (5. 4. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36973">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 15 (14. 4. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36974">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 16 (21. 4. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36975">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 17 (5. 5. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36976">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 18 (10. 5. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36977">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 19 (19. 5. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36978">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 20 (20. 5. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36979">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 21 (26. 5. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36980">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 22 (2. 6. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36981">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 23 (7. 6. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36982">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 24 (16. 6. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36983">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 25 (28. 6. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36984">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 26 (7. 7. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36985">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 27 (21. 7. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36986">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 28 (26. 7. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36987">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 29 (28. 7. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36988">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 30 (2. 8. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36989">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 31 (4. 8. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36990">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 32/1 (8. 9. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36991">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 32 (8. 9. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36992">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 33 (14. 9. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36993">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 34 (16. 9. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36994">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 35 (19. 9. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36995">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 36 (22. 9. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36996">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 37 (29. 9. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36997">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 38/1 (6. 10. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36998">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 38 (6. 10. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.36999">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 39 (11. 10. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37000">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 40 (20. 10. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37001">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 41 (27. 10. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37002">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 42 (8. 11. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37003">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 43/1 (9. 11. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37004">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 43/2 (9. 11. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37005">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 43/3 (9. 11. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37006">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 43 (9. 11. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37007">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 44 (17. 11. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37008">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 45 (24. 11. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37009">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 46 (30. 11. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37010">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 47/1 (1. 12. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37011">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 47 (1. 12. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37012">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 48 (6. 12. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37013">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 49 (7. 12. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37014">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 50 (15. 12. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37015">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 20, št. 51 (23. 12. 1994)</title>
+            </bibl>
+            <bibl xml:id="sistory.37016">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 1 (4. 1. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37017">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 2 (9. 1. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37018">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 3 (12. 1. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37019">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 4 (24. 1. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37020">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 5 (1. 2. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37021">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 6 (14. 2. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37022">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 7 (23. 2. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37023">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 8 (8. 3. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37024">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 9 (16. 3. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37025">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 10 (29. 3. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37026">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 11/1 (3. 4. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37027">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 11 (3. 4. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37028">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 12 (11. 4. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37029">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 13/1 (14. 4. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37030">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 13 (14. 4. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37031">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 14 (25. 4. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37032">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 15 (4. 5. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37033">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 16 (5. 5. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37034">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 17/1 (17. 5. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37035">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 17 (17. 5. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37036">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 18 (18. 5. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37037">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 19 (25. 5. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37038">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 20 (1. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37039">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 21 (6. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37040">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 22 (9. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37041">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 23/1 (16. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37042">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 23 (16. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37043">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 24 (18. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37044">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 25 (19. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37045">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 26 (19. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37046">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 27 (20. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37047">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 28 (26. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37048">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 29 (27. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37049">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 30 (29. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37050">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 31 (29. 6. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37051">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 32 (6. 7. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37052">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 33 (13. 7. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37053">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 34 (20. 7. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37054">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 35 (1. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37055">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 36 (8. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37056">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 37/1 (8. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37057">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 37 (8. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37058">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 38/1 (11. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37059">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 38/2 (11. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37060">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 38/3 (11. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37061">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 38/4 (11. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37062">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 38 (11. 8. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37063">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 39 (14. 9. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37064">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 40 (14. 9. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37065">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 41 (21. 9. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37066">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 42 (5. 10. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37067">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 43 (16. 10. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37068">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 44/1 (19. 10. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37069">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 44 (19. 10. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37070">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 45 (19. 10. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37071">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 46 (27. 10. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37072">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 47 (27. 10. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37073">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 48 (9. 11. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37074">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 49 (10. 11. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37075">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 50 (24. 11. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37076">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 51 (29. 11. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37077">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 52/1 (6. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37078">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 52/2 (6. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37079">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 52/3 (6. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37080">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 52/4 (6. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37081">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 52/5 (6. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37082">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 52 (6. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37083">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 53 (7. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37084">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 54 (14. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37085">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 55 (21. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37086">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 56/1 (28. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37087">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 21, št. 56 (28. 12. 1995)</title>
+            </bibl>
+            <bibl xml:id="sistory.37088">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 1 (11. 1. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37089">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 2 (18. 1. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37090">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 3 (26. 1. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37091">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 5 (2. 2. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37092">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 4 (6. 2. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37093">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 6/1 (29. 2. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37094">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 6 (29. 2. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37095">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 7 (7. 3. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37096">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 8 (14. 3. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37097">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 9 (22. 3. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37098">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 10 (4. 4. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37099">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 11 (18. 4. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37100">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 12 (19. 4. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37101">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 13 (25. 4. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37102">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 14 (30. 4. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37103">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 15 (16. 5. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37104">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 16 (16. 5. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37105">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 17 (24. 5. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37106">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 18 (31. 5. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37107">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 19 (4. 6. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37108">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 20 (6. 6. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37109">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 21 (11. 6. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37110">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 22 (13. 6. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37111">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 23 (20. 6. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37112">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 24 (28. 6. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37113">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 25 (4. 7. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37114">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 26 (12. 7. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37115">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 27 (17. 7. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37116">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 28 (19. 7. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37117">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 29 (24. 7. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37118">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 30 (26. 7. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37119">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 31 (30. 7. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37120">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 32 (1. 8. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37121">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 33 (13. 9. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37122">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 35 (26. 9. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37123">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 36 (3. 10. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37124">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 37 (4. 10. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37125">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 38 (4. 10. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37126">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 39 (7. 10. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37127">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 40 (10. 10. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37128">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 41 (17. 10. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37129">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 42 (17. 10. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37130">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 43 (29. 10. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37131">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 44 (7. 11. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37132">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 45 (14. 11. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37133">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 46 (18. 11. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37134">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 47 (18. 11. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37135">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 48 (22. 11. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37136">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 49 (25. 11. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37137">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 50 (27. 11. 1996)</title>
+            </bibl>
+            <bibl xml:id="sistory.37138">
+               <title>Poročevalec Državnega zbora Republike Slovenije, letnik 22, št. 51 (17. 12. 1996)</title>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <!--
+    Schema generated from ODD source 2018-01-13T09:28:16Z. .
+    TEI Edition: Version 3.2.0. Last updated on
+    	10th July 2017, revision 0fcf651
+    TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.2.0/
+    
+  -->
+  <!-- This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text. -->
+  <xs:complexType name="macro.paraContent" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:group ref="tei:model.phrase"/>
+      <xs:group ref="tei:model.inter"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="macro.phraseSeq" mixed="true">
+    <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:model.phrase"/>
+  </xs:complexType>
+  <xs:complexType name="macro.phraseSeq.limited" mixed="true">
+    <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:model.limitedPhrase"/>
+  </xs:complexType>
+  <xs:complexType name="macro.specialPara" mixed="true">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:group ref="tei:model.phrase"/>
+      <xs:group ref="tei:model.inter"/>
+      <xs:group ref="tei:model.divPart"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:simpleType name="data.numeric">
+    <xs:union memberTypes="xs:double xs:decimal">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:pattern value="(\-?[\d]+/\-?[\d]+)"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+  <xs:attributeGroup name="att.canonical.attributes">
+    <xs:attributeGroup ref="tei:att.canonical.attribute.key"/>
+    <xs:attributeGroup ref="tei:att.canonical.attribute.ref"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.canonical.attribute.key">
+    <xs:attribute name="key" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>provides an externally-defined means of identifying the entity (or entities) being named, using a coded value of some kind.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.canonical.attribute.ref">
+    <xs:attribute name="ref">
+      <xs:annotation>
+        <xs:documentation>(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list itemType="xs:anyURI"/>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.ranging.attributes">
+    <xs:attributeGroup ref="tei:att.ranging.attribute.atLeast"/>
+    <xs:attributeGroup ref="tei:att.ranging.attribute.atMost"/>
+    <xs:attributeGroup ref="tei:att.ranging.attribute.min"/>
+    <xs:attributeGroup ref="tei:att.ranging.attribute.max"/>
+    <xs:attributeGroup ref="tei:att.ranging.attribute.confidence"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.ranging.attribute.atLeast">
+    <xs:attribute name="atLeast">
+      <xs:annotation>
+        <xs:documentation>gives a minimum estimated value for the approximate measurement.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:double xs:decimal">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:pattern value="(\-?[\d]+/\-?[\d]+)"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.ranging.attribute.atMost">
+    <xs:attribute name="atMost">
+      <xs:annotation>
+        <xs:documentation>gives a maximum estimated value for the approximate measurement.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:double xs:decimal">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:pattern value="(\-?[\d]+/\-?[\d]+)"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.ranging.attribute.min">
+    <xs:attribute name="min">
+      <xs:annotation>
+        <xs:documentation>where the measurement summarizes more than one observation or a range, supplies the minimum value observed.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:double xs:decimal">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:pattern value="(\-?[\d]+/\-?[\d]+)"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.ranging.attribute.max">
+    <xs:attribute name="max">
+      <xs:annotation>
+        <xs:documentation>where the measurement summarizes more than one observation or a range, supplies the maximum value observed.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:double xs:decimal">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:pattern value="(\-?[\d]+/\-?[\d]+)"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.ranging.attribute.confidence">
+    <xs:attribute name="confidence" type="xs:double">
+      <xs:annotation>
+        <xs:documentation>specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by min and max, or the proportion of observed values that fall within that range.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.dimensions.attributes">
+    <xs:attributeGroup ref="tei:att.ranging.attributes"/>
+    <xs:attributeGroup ref="tei:att.dimensions.attribute.unit"/>
+    <xs:attributeGroup ref="tei:att.dimensions.attribute.quantity"/>
+    <xs:attributeGroup ref="tei:att.dimensions.attribute.extent"/>
+    <xs:attributeGroup ref="tei:att.dimensions.attribute.precision"/>
+    <xs:attributeGroup ref="tei:att.dimensions.attribute.scope"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.dimensions.attribute.unit">
+    <xs:attribute name="unit">
+      <xs:annotation>
+        <xs:documentation>names the unit used for the measurement
+Suggested values include: 1] cm(centimetres) ; 2] mm(millimetres) ; 3] in(inches) ; 4] lines; 5] chars(characters) </xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union>
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="cm">
+                <xs:annotation>
+                  <xs:documentation>(centimetres) </xs:documentation>
+                </xs:annotation>
+              </xs:enumeration>
+            </xs:restriction>
+          </xs:simpleType>
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="mm">
+                <xs:annotation>
+                  <xs:documentation>(millimetres) </xs:documentation>
+                </xs:annotation>
+              </xs:enumeration>
+            </xs:restriction>
+          </xs:simpleType>
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="in">
+                <xs:annotation>
+                  <xs:documentation>(inches) </xs:documentation>
+                </xs:annotation>
+              </xs:enumeration>
+            </xs:restriction>
+          </xs:simpleType>
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="lines">
+                <xs:annotation>
+                  <xs:documentation>lines of text</xs:documentation>
+                </xs:annotation>
+              </xs:enumeration>
+            </xs:restriction>
+          </xs:simpleType>
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="chars">
+                <xs:annotation>
+                  <xs:documentation>(characters) characters of text</xs:documentation>
+                </xs:annotation>
+              </xs:enumeration>
+            </xs:restriction>
+          </xs:simpleType>
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:pattern value="(\p{L}|\p{N}|\p{P}|\p{S})+"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.dimensions.attribute.quantity">
+    <xs:attribute name="quantity">
+      <xs:annotation>
+        <xs:documentation>specifies the length in the units specified</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:double xs:decimal">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:pattern value="(\-?[\d]+/\-?[\d]+)"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.dimensions.attribute.extent">
+    <xs:attribute name="extent" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>indicates the size of the object concerned using a project-specific vocabulary combining quantity and units in a single string of words.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.dimensions.attribute.precision">
+    <xs:attribute name="precision">
+      <xs:annotation>
+        <xs:documentation>characterizes the precision of the values specified by the other attributes.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="high"/>
+          <xs:enumeration value="medium"/>
+          <xs:enumeration value="low"/>
+          <xs:enumeration value="unknown"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.dimensions.attribute.scope">
+    <xs:attribute name="scope">
+      <xs:annotation>
+        <xs:documentation>where the measurement summarizes more than one observation, specifies the applicability of this measurement.
+Sample values include: 1] all; 2] most; 3] range</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:pattern value="(\p{L}|\p{N}|\p{P}|\p{S})+"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.written.attributes">
+    <xs:attributeGroup ref="tei:att.written.attribute.hand"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.written.attribute.hand">
+    <xs:attribute name="hand" type="xs:anyURI">
+      <xs:annotation>
+        <xs:documentation>points to a handNote element describing the hand considered responsible for the textual content of the element concerned.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.w3c.attributes">
+    <xs:attributeGroup ref="tei:att.datable.w3c.attribute.when"/>
+    <xs:attributeGroup ref="tei:att.datable.w3c.attribute.notBefore"/>
+    <xs:attributeGroup ref="tei:att.datable.w3c.attribute.notAfter"/>
+    <xs:attributeGroup ref="tei:att.datable.w3c.attribute.from"/>
+    <xs:attributeGroup ref="tei:att.datable.w3c.attribute.to"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.w3c.attribute.when">
+    <xs:attribute name="when">
+      <xs:annotation>
+        <xs:documentation>supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:date xs:gYear xs:gMonth xs:gDay xs:gYearMonth xs:gMonthDay xs:time xs:dateTime"/>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.w3c.attribute.notBefore">
+    <xs:attribute name="notBefore">
+      <xs:annotation>
+        <xs:documentation>specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:date xs:gYear xs:gMonth xs:gDay xs:gYearMonth xs:gMonthDay xs:time xs:dateTime"/>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.w3c.attribute.notAfter">
+    <xs:attribute name="notAfter">
+      <xs:annotation>
+        <xs:documentation>specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:date xs:gYear xs:gMonth xs:gDay xs:gYearMonth xs:gMonthDay xs:time xs:dateTime"/>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.w3c.attribute.from">
+    <xs:attribute name="from">
+      <xs:annotation>
+        <xs:documentation>indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:date xs:gYear xs:gMonth xs:gDay xs:gYearMonth xs:gMonthDay xs:time xs:dateTime"/>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.w3c.attribute.to">
+    <xs:attribute name="to">
+      <xs:annotation>
+        <xs:documentation>indicates the ending point of the period in standard form, e.g. yyyy-mm-dd.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:date xs:gYear xs:gMonth xs:gDay xs:gYearMonth xs:gMonthDay xs:time xs:dateTime"/>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.attributes">
+    <xs:attributeGroup ref="tei:att.datable.w3c.attributes"/>
+    <xs:attributeGroup ref="tei:att.datable.attribute.calendar"/>
+    <xs:attributeGroup ref="tei:att.datable.attribute.period"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.attribute.calendar">
+    <xs:attribute name="calendar" type="xs:anyURI">
+      <xs:annotation>
+        <xs:documentation>indicates the system or calendar to which the date represented by the content of this element belongs.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.datable.attribute.period">
+    <xs:attribute name="period" type="xs:anyURI">
+      <xs:annotation>
+        <xs:documentation>supplies a pointer to some location defining a named period of time within which the datable item is understood to have occurred.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.declarable.attributes">
+    <xs:attributeGroup ref="tei:att.declarable.attribute.default"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.declarable.attribute.default">
+    <xs:attribute name="default" default="false">
+      <xs:annotation>
+        <xs:documentation>indicates whether or not this element is selected by default when its parent is selected.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="true">
+            <xs:annotation>
+              <xs:documentation>This element is selected if its parent is selected</xs:documentation>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="false">
+            <xs:annotation>
+              <xs:documentation>This element can only be selected explicitly, unless it is the only one of its kind, in which case it is selected if its parent is selected.</xs:documentation>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.responsibility.attributes">
+    <xs:attributeGroup ref="tei:att.global.responsibility.attribute.cert"/>
+    <xs:attributeGroup ref="tei:att.global.responsibility.attribute.resp"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.responsibility.attribute.cert">
+    <xs:attribute name="cert">
+      <xs:annotation>
+        <xs:documentation>(certainty) signifies the degree of certainty associated with the intervention or interpretation.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:double">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="high"/>
+              <xs:enumeration value="medium"/>
+              <xs:enumeration value="low"/>
+              <xs:enumeration value="unknown"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.responsibility.attribute.resp">
+    <xs:attribute name="resp">
+      <xs:annotation>
+        <xs:documentation>(responsible party) indicates the agency responsible for the intervention or interpretation, for example an editor or transcriber.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list itemType="xs:anyURI"/>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.editLike.attributes">
+    <xs:attributeGroup ref="tei:att.dimensions.attributes"/>
+    <xs:attributeGroup ref="tei:att.editLike.attribute.evidence"/>
+    <xs:attributeGroup ref="tei:att.editLike.attribute.instant"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.editLike.attribute.evidence">
+    <xs:attribute name="evidence">
+      <xs:annotation>
+        <xs:documentation>indicates the nature of the evidence supporting the reliability or accuracy of the intervention or interpretation.
+Suggested values include: 1] internal; 2] external; 3] conjecture</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list>
+              <xs:simpleType>
+                <xs:union>
+                  <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                      <xs:enumeration value="internal">
+                        <xs:annotation>
+                          <xs:documentation>there is internal evidence to support the intervention.</xs:documentation>
+                        </xs:annotation>
+                      </xs:enumeration>
+                    </xs:restriction>
+                  </xs:simpleType>
+                  <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                      <xs:enumeration value="external">
+                        <xs:annotation>
+                          <xs:documentation>there is external evidence to support the intervention.</xs:documentation>
+                        </xs:annotation>
+                      </xs:enumeration>
+                    </xs:restriction>
+                  </xs:simpleType>
+                  <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                      <xs:enumeration value="conjecture">
+                        <xs:annotation>
+                          <xs:documentation>the intervention or interpretation has been made by the editor, cataloguer, or scholar on the basis of their expertise.</xs:documentation>
+                        </xs:annotation>
+                      </xs:enumeration>
+                    </xs:restriction>
+                  </xs:simpleType>
+                  <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                      <xs:pattern value="(\p{L}|\p{N}|\p{P}|\p{S})+"/>
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:union>
+              </xs:simpleType>
+            </xs:list>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.editLike.attribute.instant">
+    <xs:attribute name="instant" default="false">
+      <xs:annotation>
+        <xs:documentation>indicates whether this is an instant revision or not.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:boolean">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="unknown"/>
+              <xs:enumeration value="inapplicable"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.rendition.attributes">
+    <xs:attributeGroup ref="tei:att.global.rendition.attribute.rend"/>
+    <xs:attributeGroup ref="tei:att.global.rendition.attribute.style"/>
+    <xs:attributeGroup ref="tei:att.global.rendition.attribute.rendition"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.rendition.attribute.rend">
+    <xs:attribute name="rend">
+      <xs:annotation>
+        <xs:documentation>(rendition) indicates how the element in question was rendered or presented in the source text.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list>
+              <xs:simpleType>
+                <xs:restriction base="xs:token">
+                  <xs:pattern value="(\p{L}|\p{N}|\p{P}|\p{S})+"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:list>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.rendition.attribute.style">
+    <xs:attribute name="style" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>contains an expression in some formal style definition language which defines the rendering or presentation used for this element in the source text</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.rendition.attribute.rendition">
+    <xs:attribute name="rendition">
+      <xs:annotation>
+        <xs:documentation>points to a description of the rendering or presentation used for this element in the source text.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list itemType="xs:anyURI"/>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.source.attributes">
+    <xs:attributeGroup ref="tei:att.global.source.attribute.source"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.source.attribute.source">
+    <xs:attribute name="source">
+      <xs:annotation>
+        <xs:documentation>specifies the source from which some aspect of this element is drawn.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list itemType="xs:anyURI"/>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.attributes">
+    <xs:attributeGroup ref="tei:att.global.rendition.attributes"/>
+    <xs:attributeGroup ref="tei:att.global.responsibility.attributes"/>
+    <xs:attributeGroup ref="tei:att.global.source.attributes"/>
+    <xs:attributeGroup ref="tei:att.global.attribute.xmlid"/>
+    <xs:attributeGroup ref="tei:att.global.attribute.n"/>
+    <xs:attributeGroup ref="tei:att.global.attribute.xmllang"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.attribute.xmlid">
+    <xs:attribute ref="xml:id"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.attribute.n">
+    <xs:attribute name="n" type="xs:string">
+      <xs:annotation>
+        <xs:documentation>(number) gives a number (or other label) for an element, which is not necessarily unique within the document.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.global.attribute.xmllang">
+    <xs:attribute ref="xml:lang"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.naming.attributes">
+    <xs:attributeGroup ref="tei:att.canonical.attributes"/>
+    <xs:attributeGroup ref="tei:att.naming.attribute.role"/>
+    <xs:attributeGroup ref="tei:att.naming.attribute.nymRef"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.naming.attribute.role">
+    <xs:attribute name="role">
+      <xs:annotation>
+        <xs:documentation>may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list>
+              <xs:simpleType>
+                <xs:restriction base="xs:token">
+                  <xs:pattern value="(\p{L}|\p{N}|\p{P}|\p{S})+"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:list>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.naming.attribute.nymRef">
+    <xs:attribute name="nymRef">
+      <xs:annotation>
+        <xs:documentation>(reference to the canonical name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list itemType="xs:anyURI"/>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.typed.attributes">
+    <xs:attributeGroup ref="tei:att.typed.attribute.type"/>
+    <xs:attributeGroup ref="tei:att.typed.attribute.subtype"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.typed.attribute.type">
+    <xs:attribute name="type">
+      <xs:annotation>
+        <xs:documentation>characterizes the element in some sense, using any convenient classification scheme or typology.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:pattern value="(\p{L}|\p{N}|\p{P}|\p{S})+"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.typed.attribute.subtype">
+    <xs:attribute name="subtype">
+      <xs:annotation>
+        <xs:documentation>provides a sub-categorization of the element, if needed</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:pattern value="(\p{L}|\p{N}|\p{P}|\p{S})+"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.pointing.attributes">
+    <xs:attributeGroup ref="tei:att.pointing.attribute.targetLang"/>
+    <xs:attributeGroup ref="tei:att.pointing.attribute.target"/>
+    <xs:attributeGroup ref="tei:att.pointing.attribute.evaluate"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.pointing.attribute.targetLang">
+    <xs:attribute name="targetLang">
+      <xs:annotation>
+        <xs:documentation>specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:union memberTypes="xs:language">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value=""/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:union>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.pointing.attribute.target">
+    <xs:attribute name="target">
+      <xs:annotation>
+        <xs:documentation>specifies the destination of the reference by supplying one or more URI References</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction>
+          <xs:simpleType>
+            <xs:list itemType="xs:anyURI"/>
+          </xs:simpleType>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.pointing.attribute.evaluate">
+    <xs:attribute name="evaluate">
+      <xs:annotation>
+        <xs:documentation>specifies the intended meaning when the target of a pointer is itself a pointer.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="all">
+            <xs:annotation>
+              <xs:documentation>if the element pointed to is itself a pointer, then the target of that pointer will be taken, and so on, until an element is found which is not a pointer.</xs:documentation>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="one">
+            <xs:annotation>
+              <xs:documentation>if the element pointed to is itself a pointer, then its target (whether a pointer or not) is taken as the target of this pointer.</xs:documentation>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="none">
+            <xs:annotation>
+              <xs:documentation>no further evaluation of targets is carried out beyond that needed to find the element specified in the pointer's target.</xs:documentation>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:group name="model.nameLike.agent">
+    <xs:sequence>
+      <xs:element ref="tei:name"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike.agent_alternation">
+    <xs:sequence>
+      <xs:element ref="tei:name"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike.agent_sequence">
+    <xs:sequence>
+      <xs:element ref="tei:name"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike.agent_sequenceOptional">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tei:name"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike.agent_sequenceOptionalRepeatable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:name"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike.agent_sequenceRepeatable">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="tei:name"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.emphLike">
+    <xs:sequence>
+      <xs:element ref="tei:title"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.emphLike_alternation">
+    <xs:sequence>
+      <xs:element ref="tei:title"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.emphLike_sequence">
+    <xs:sequence>
+      <xs:element ref="tei:title"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.emphLike_sequenceOptional">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tei:title"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.emphLike_sequenceOptionalRepeatable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:title"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.emphLike_sequenceRepeatable">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="tei:title"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.highlighted">
+    <xs:sequence>
+      <xs:group ref="tei:model.emphLike"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.dateLike">
+    <xs:sequence>
+      <xs:element ref="tei:date"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.dateLike_alternation">
+    <xs:sequence>
+      <xs:element ref="tei:date"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.dateLike_sequence">
+    <xs:sequence>
+      <xs:element ref="tei:date"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.dateLike_sequenceOptional">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tei:date"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.dateLike_sequenceOptionalRepeatable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:date"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.dateLike_sequenceRepeatable">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="tei:date"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.biblLike">
+    <xs:choice>
+      <xs:element ref="tei:bibl"/>
+      <xs:element ref="tei:listBibl"/>
+    </xs:choice>
+  </xs:group>
+  <xs:group name="model.biblLike_alternation">
+    <xs:choice>
+      <xs:element ref="tei:bibl"/>
+      <xs:element ref="tei:listBibl"/>
+    </xs:choice>
+  </xs:group>
+  <xs:group name="model.biblLike_sequence">
+    <xs:sequence>
+      <xs:element ref="tei:bibl"/>
+      <xs:element ref="tei:listBibl"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.biblLike_sequenceOptional">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tei:bibl"/>
+      <xs:element minOccurs="0" ref="tei:listBibl"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.biblLike_sequenceOptionalRepeatable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:bibl"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:listBibl"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.biblLike_sequenceRepeatable">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="tei:bibl"/>
+      <xs:element maxOccurs="unbounded" ref="tei:listBibl"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.pLike">
+    <xs:sequence>
+      <xs:element ref="tei:p"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.pLike_alternation">
+    <xs:sequence>
+      <xs:element ref="tei:p"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.pLike_sequence">
+    <xs:sequence>
+      <xs:element ref="tei:p"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.pLike_sequenceOptional">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="tei:p"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.pLike_sequenceOptionalRepeatable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:p"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.pLike_sequenceRepeatable">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="tei:p"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.divPart">
+    <xs:sequence>
+      <xs:group ref="tei:model.pLike"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.publicationStmtPart.agency">
+    <xs:sequence>
+      <xs:element ref="tei:publisher"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.publicationStmtPart.detail">
+    <xs:choice>
+      <xs:element ref="tei:date"/>
+      <xs:element ref="tei:availability"/>
+    </xs:choice>
+  </xs:group>
+  <xs:group name="model.availabilityPart">
+    <xs:sequence>
+      <xs:element ref="tei:licence"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.respLike">
+    <xs:sequence>
+      <xs:element ref="tei:respStmt"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.imprintPart">
+    <xs:sequence>
+      <xs:element ref="tei:publisher"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike">
+    <xs:sequence>
+      <xs:group ref="tei:model.nameLike.agent"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike_alternation">
+    <xs:sequence>
+      <xs:group ref="tei:model.nameLike.agent_alternation"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike_sequence">
+    <xs:sequence>
+      <xs:group ref="tei:model.nameLike.agent_sequence"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike_sequenceOptional">
+    <xs:sequence>
+      <xs:group minOccurs="0" ref="tei:model.nameLike.agent_sequenceOptional"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.nameLike_sequenceOptionalRepeatable">
+    <xs:sequence>
+      <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:model.nameLike.agent_sequenceOptionalRepeatable"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.biblPart">
+    <xs:choice>
+      <xs:group ref="tei:model.respLike"/>
+      <xs:group ref="tei:model.imprintPart"/>
+      <xs:element ref="tei:bibl"/>
+      <xs:element ref="tei:relatedItem"/>
+      <xs:element ref="tei:availability"/>
+    </xs:choice>
+  </xs:group>
+  <xs:group name="model.frontPart">
+    <xs:sequence>
+      <xs:element ref="tei:listBibl"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.pPart.data">
+    <xs:choice>
+      <xs:group ref="tei:model.dateLike"/>
+      <xs:group ref="tei:model.nameLike"/>
+    </xs:choice>
+  </xs:group>
+  <xs:group name="model.inter">
+    <xs:sequence>
+      <xs:group ref="tei:model.biblLike"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.common">
+    <xs:choice>
+      <xs:group ref="tei:model.divPart"/>
+      <xs:group ref="tei:model.inter"/>
+    </xs:choice>
+  </xs:group>
+  <xs:group name="model.phrase">
+    <xs:choice>
+      <xs:group ref="tei:model.highlighted"/>
+      <xs:group ref="tei:model.pPart.data"/>
+    </xs:choice>
+  </xs:group>
+  <xs:group name="model.limitedPhrase">
+    <xs:choice>
+      <xs:group ref="tei:model.emphLike"/>
+      <xs:group ref="tei:model.pPart.data"/>
+    </xs:choice>
+  </xs:group>
+  <xs:group name="model.divLike">
+    <xs:sequence>
+      <xs:element ref="tei:div"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="model.resourceLike">
+    <xs:sequence>
+      <xs:element ref="tei:text"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:attributeGroup name="att.personal.attributes">
+    <xs:attributeGroup ref="tei:att.naming.attributes"/>
+    <xs:attributeGroup ref="tei:att.personal.attribute.full"/>
+    <xs:attributeGroup ref="tei:att.personal.attribute.sort"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.personal.attribute.full">
+    <xs:attribute name="full" default="yes">
+      <xs:annotation>
+        <xs:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="yes">
+            <xs:annotation>
+              <xs:documentation>the name component is spelled out in full.</xs:documentation>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="abb">
+            <xs:annotation>
+              <xs:documentation>(abbreviated) the name component is given in an abbreviated form.</xs:documentation>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="init">
+            <xs:annotation>
+              <xs:documentation>(initial letter) the name component is indicated only by one initial.</xs:documentation>
+            </xs:annotation>
+          </xs:enumeration>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="att.personal.attribute.sort">
+    <xs:attribute name="sort" type="xs:nonNegativeInteger">
+      <xs:annotation>
+        <xs:documentation>specifies the sort order of the name component in relation to others within the name.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:element name="p">
+    <xs:annotation>
+      <xs:documentation>(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tei:macro.paraContent">
+          <xs:attributeGroup ref="tei:att.global.attributes"/>
+          <xs:attributeGroup ref="tei:att.written.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name">
+    <xs:annotation>
+      <xs:documentation>(name, proper noun) contains a proper noun or noun phrase. [3.5.1. Referring Strings]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tei:macro.phraseSeq">
+          <xs:attributeGroup ref="tei:att.global.attributes"/>
+          <xs:attributeGroup ref="tei:att.personal.attributes"/>
+          <xs:attributeGroup ref="tei:att.datable.attributes"/>
+          <xs:attributeGroup ref="tei:att.editLike.attributes"/>
+          <xs:attributeGroup ref="tei:att.typed.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="date">
+    <xs:annotation>
+      <xs:documentation>contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:model.phrase"/>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+      <xs:attributeGroup ref="tei:att.datable.attributes"/>
+      <xs:attributeGroup ref="tei:att.editLike.attributes"/>
+      <xs:attributeGroup ref="tei:att.typed.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="respStmt">
+    <xs:annotation>
+      <xs:documentation>(statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice>
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" ref="tei:resp"/>
+          <xs:group maxOccurs="unbounded" ref="tei:model.nameLike.agent"/>
+        </xs:sequence>
+        <xs:sequence>
+          <xs:group maxOccurs="unbounded" ref="tei:model.nameLike.agent"/>
+          <xs:element maxOccurs="unbounded" ref="tei:resp"/>
+        </xs:sequence>
+      </xs:choice>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+      <xs:attributeGroup ref="tei:att.canonical.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="resp">
+    <xs:annotation>
+      <xs:documentation>(responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tei:macro.phraseSeq.limited">
+          <xs:attributeGroup ref="tei:att.global.attributes"/>
+          <xs:attributeGroup ref="tei:att.canonical.attributes"/>
+          <xs:attributeGroup ref="tei:att.datable.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="tei:macro.paraContent">
+    <xs:annotation>
+      <xs:documentation>contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="publisher">
+    <xs:annotation>
+      <xs:documentation>provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tei:macro.phraseSeq">
+          <xs:attributeGroup ref="tei:att.global.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bibl">
+    <xs:annotation>
+      <xs:documentation>(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:group ref="tei:model.highlighted"/>
+        <xs:group ref="tei:model.pPart.data"/>
+        <xs:group ref="tei:model.biblPart"/>
+      </xs:choice>
+      <xs:attributeGroup ref="tei:att.global.attribute.xmlid"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="listBibl">
+    <xs:annotation>
+      <xs:documentation>(citation list) contains a list of bibliographic citations of any kind. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:group maxOccurs="unbounded" ref="tei:model.biblLike"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="relatedItem">
+    <xs:annotation>
+      <xs:documentation>contains or references some other bibliographic item which is related to the present one in some specified manner, for example as a constituent or alternative version of it. [3.11.2.7. Related Items]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:group minOccurs="0" ref="tei:model.biblLike"/>
+      <xs:attribute name="n" use="required" type="tei:data.numeric">
+        <xs:annotation>
+          <xs:documentation>(number) PDF page.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="teiHeader">
+    <xs:annotation>
+      <xs:documentation>(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tei:fileDesc">
+          <xs:attributeGroup ref="tei:att.global.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="fileDesc">
+    <xs:sequence>
+      <xs:element ref="tei:fileDesc"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="fileDesc">
+    <xs:annotation>
+      <xs:documentation>(file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:sequence>
+          <xs:element ref="tei:titleStmt"/>
+          <xs:element ref="tei:publicationStmt"/>
+        </xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:sourceDesc"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titleStmt">
+    <xs:annotation>
+      <xs:documentation>(title statement) groups information about the title of a work and those responsible for its content. [2.2.1. The Title Statement 2.2. The File Description]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:title"/>
+        <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:model.respLike"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publicationStmt">
+    <xs:annotation>
+      <xs:documentation>(publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice>
+        <xs:sequence maxOccurs="unbounded">
+          <xs:group ref="tei:model.publicationStmtPart.agency"/>
+          <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:model.publicationStmtPart.detail"/>
+        </xs:sequence>
+        <xs:group maxOccurs="unbounded" ref="tei:model.pLike"/>
+      </xs:choice>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="availability">
+    <xs:annotation>
+      <xs:documentation>supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution, Licensing, etc.]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:group ref="tei:model.availabilityPart"/>
+        <xs:group ref="tei:model.pLike"/>
+      </xs:choice>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+      <xs:attributeGroup ref="tei:att.declarable.attributes"/>
+      <xs:attribute name="status" default="unknown">
+        <xs:annotation>
+          <xs:documentation>supplies a code identifying the current availability of the text.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="free">
+              <xs:annotation>
+                <xs:documentation>the text is freely available.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="unknown">
+              <xs:annotation>
+                <xs:documentation>the status of the text is unknown.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="restricted">
+              <xs:annotation>
+                <xs:documentation>the text is not freely available.</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="licence">
+    <xs:annotation>
+      <xs:documentation>contains information about a licence or other legal agreement applicable to the text. [2.2.4. Publication, Distribution, Licensing, etc.]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="tei:macro.specialPara">
+          <xs:attributeGroup ref="tei:att.global.attributes"/>
+          <xs:attributeGroup ref="tei:att.pointing.attributes"/>
+          <xs:attributeGroup ref="tei:att.datable.attributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sourceDesc">
+    <xs:annotation>
+      <xs:documentation>(source description) describes the source from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice>
+        <xs:group maxOccurs="unbounded" ref="tei:model.pLike"/>
+        <xs:group maxOccurs="unbounded" ref="tei:model.biblLike"/>
+      </xs:choice>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TEI">
+    <xs:annotation>
+      <xs:documentation>(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple TEI elements may be combined to form a teiCorpus element. [4. Default Text Structure 15.1. Varieties of Composite Text]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tei:teiHeader"/>
+        <xs:group maxOccurs="unbounded" ref="tei:model.resourceLike"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+      <xs:attributeGroup ref="tei:att.typed.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="text">
+    <xs:annotation>
+      <xs:documentation>contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="tei:front"/>
+        <xs:element ref="tei:body"/>
+        <xs:element minOccurs="0" ref="tei:back"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+      <xs:attributeGroup ref="tei:att.typed.attributes"/>
+      <xs:attributeGroup ref="tei:att.written.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:annotation>
+      <xs:documentation>(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice>
+        <xs:group maxOccurs="unbounded" ref="tei:model.divLike"/>
+        <xs:sequence>
+          <xs:group maxOccurs="unbounded" ref="tei:model.common"/>
+          <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:model.divLike"/>
+        </xs:sequence>
+      </xs:choice>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div">
+    <xs:annotation>
+      <xs:documentation>(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice minOccurs="0">
+        <xs:group maxOccurs="unbounded" ref="tei:model.divLike"/>
+        <xs:sequence>
+          <xs:group maxOccurs="unbounded" ref="tei:model.common"/>
+          <xs:group minOccurs="0" maxOccurs="unbounded" ref="tei:model.divLike"/>
+        </xs:sequence>
+      </xs:choice>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+      <xs:attributeGroup ref="tei:att.typed.attributes"/>
+      <xs:attributeGroup ref="tei:att.written.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="front">
+    <xs:annotation>
+      <xs:documentation>(front matter) contains any prefatory matter (headers, abstracts, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. [4.6. Title Pages 4. Default Text Structure]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="tei:model.frontPart"/>
+          <xs:group ref="tei:model.pLike"/>
+        </xs:choice>
+        <xs:sequence minOccurs="0">
+          <xs:group ref="tei:model.divLike"/>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="tei:model.divLike"/>
+            <xs:group ref="tei:model.frontPart"/>
+          </xs:choice>
+        </xs:sequence>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="back">
+    <xs:annotation>
+      <xs:documentation>(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:group ref="tei:model.frontPart"/>
+          <xs:group ref="tei:model.pLike"/>
+        </xs:choice>
+        <xs:sequence minOccurs="0">
+          <xs:group ref="tei:model.divLike"/>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="tei:model.frontPart"/>
+            <xs:group ref="tei:model.divLike"/>
+          </xs:choice>
+        </xs:sequence>
+      </xs:sequence>
+      <xs:attributeGroup ref="tei:att.global.attributes"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
